@@ -127,17 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* MOBILE  */
 @media screen and (max-width: 1140px) {
     .container {
         width:100%;
     }
 }
+/* TABLET  */
 @media screen and (max-width: 768px) {
     .container {
         width:100%;
     }
 }
+/* MOBILE  */
 @media screen and (max-width: 480px) {
     .container {
         width:100%;
@@ -176,9 +177,6 @@ img {
     }
     .why-us img {
         margin-bottom: 40px;
-    }
-    .why-us h2 {
-        max-width: 85%;
     }
 
 }
